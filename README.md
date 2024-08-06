@@ -2,7 +2,7 @@ Methlab QA Assessment
 
 Overview
 
-This README provides instructions for the Methlab QA assessment. The task involves automating the testcases for leverage feature as mentioned [here] (https://diffusionlabs.notion.site/MethLab-QA-Assessment-585f27ec60ed45e7a84eb62f4abc6c44). The assessment includes UI automation using Selenium and performance testing with Locust.
+This README provides instructions for the Methlab QA assessment. The task involves automating the testcases for leverage feature. The assessment includes UI automation using Selenium and performance testing with Locust.
 
 Prerequisites
 Ensure you have the following tools and dependencies installed:
@@ -14,18 +14,17 @@ Ensure you have the following tools and dependencies installed:
 
 Setup
 1. Clone the Repository
-   bash
-   Copy code
+```bash
    git clone <repository-url>
-   cd methlab-qa-assessment
-
+   cd methlab-leverage
+```
 2. Install Dependencies
    Create a virtual environment and install the required packages:
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
+pip install <package-name>
 ```
 
 To run the Selenium UI tests, use:
