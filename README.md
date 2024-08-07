@@ -30,19 +30,16 @@ pip install <package-name>
 To run the Selenium UI tests, use:
 
 ```bash
-pytest tests/test.py
+pytest --html=reports/test_report.html tests/test.py
 ```
-Performance Testing with Locust
-Configuration
-Update the locustfile.py with:
+Access the test_report from the reports folder to analyse
 
-Endpoints for wallet interactions
-Load parameters for performance testing
-Running Locust
+Performance Testing with Locust
+
 To start performance testing, run:
 
 ```bash
-locust -f locustfile.py
+locust -f locust/methlab_leverage.py
 ```
 Access http://localhost:8089 in your browser to start and monitor the tests.
 
